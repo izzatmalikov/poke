@@ -6,7 +6,7 @@ import { Footer } from "./components/Layout/Footer";
 import { PokemonModal } from "./components/PokemonModal";
 import { Pokemon } from "./types/Pokemon";
 import { fetchPokemonList } from "./api/fetchPokemonList";
-
+ 
 const App = () => {
   const [modal, setModal] = useState(false);
   const [pokemonData, setPokemonData] = useState<Pokemon>();
